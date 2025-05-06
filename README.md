@@ -21,7 +21,7 @@ A powerful full-stack Todo application built with **Nuxt 3 (Vue.js 3)** and **La
 ## 🛠️ Technologies Used
 
 ### Frontend (Nuxt 3)
-- Vue.js 3
+- Nuxt.js 3
 - Tailwind CSS
 - Vue Toastification
 - Font Awesome
@@ -30,7 +30,6 @@ A powerful full-stack Todo application built with **Nuxt 3 (Vue.js 3)** and **La
 ### Backend (Laravel)
 - Laravel 10.x
 - MySQL
-- Laravel Sanctum (optional for auth)
 - RESTful API design
 
 ---
@@ -58,12 +57,7 @@ This is the backend API service for the Todo App built with Laravel.
 - Install PHP dependencies - composer install
 - Create a .env file - cp .env.example .env
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=todo_app
-DB_USERNAME=root
-DB_PASSWORD=your_password
+<pre lang="md"> ### Update your `.env` file Replace the database credentials section with your local setup: ```env DB_CONNECTION=mysql DB_HOST=127.0.0.1 DB_PORT=3306 DB_DATABASE=todo_app DB_USERNAME=root DB_PASSWORD=your_password ``` </pre>
 
 - Generate application key - php artisan key:generate
 
